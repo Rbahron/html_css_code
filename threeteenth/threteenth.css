@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222024;
+}
+.container{
+    height: 340px;
+    width: 300px;
+    position: relative;
+    border-radius: 30px 30px 30px 30px ;
+    box-shadow: 0 0 30px black;
+    background-color: #fff;
+}
+.container .inner-container{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(madina3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px 40px 0 0 ;
+
+}
+.container .inner-container2{
+    height: 100%;
+    display: flex;
+}
+.container .inner-container2 audio{
+    background: transparent;
+    outline: 0;
+    background-color:#fff ;
+    
+    
+}

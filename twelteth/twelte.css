@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #131313;
+}
+.container{
+    width: 360px;
+    height: 500px;
+    border-radius: 18px;
+    position: relative;
+    box-shadow: 0 0 20px rgb(53, 51,51,0.4);
+}
+.container .inner-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image:cover ;
+
+}
+.container .inner-container .circle{
+    width: 60%;
+    height: 200px;
+    background-color: rgb(245, 190, 11);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50% 18px 50% 50% ;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.container:hover .inner-container .circle{
+    height: 300px;
+    width: 90%;
+    border-radius: 50% 18px 50% 50%;
+}
+.container .inner-container img{
+    height: 280px;
+    position: absolute;
+    background-image: cover;
+    
+}
+.container .inner-container2{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container .inner-container2 h2{
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+.container .inner-container2 h3{
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.container .inner-container2 button{
+    border: 1px solid rgb(245, 190, 11);
+    padding: 8px 18px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: rgb(245, 190, 11);
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.container .inner-container2 button:hover{
+    background: transparent;
+    color: rgb(245, 190, 11);
+}

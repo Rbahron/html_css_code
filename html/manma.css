@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+#home-icons {
+     
+}
+#bg-box {
+    background-image: url(../madina.jpg);
+    background-attachment: fixed;
+    min-height: 300px;
+position: relative;
+}
+.dark-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+#what-we-do {
+    background-image: url(../madina7.jpg);
+    background-attachment: fixed;
+    min-height: 200px;
+    position: relative;
+}
+#main-footer {
+    background-color: #000;
+    color: #fff;
+}
+.about-banner {
+    background-image: url(../madina8.jpg);
+    background-attachment: fixed;
+}
+.about-out {
+    
+    background-size: cover;
+    margin-top: -100px;
+}
